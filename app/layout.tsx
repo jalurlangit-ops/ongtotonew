@@ -136,8 +136,8 @@ export default function RootLayout({
   return (
     <html lang="id" data-browser="chrome">
       <body className={`${inter.variable} antialiased`}>{children}</body>
-      <Script type="text/javascript" strategy="afterInteractive" dangerouslySetInnerHTML={histats()} />
-      <Script type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={rank()} key="product-jsonld" />
+      <Script id="histats" type="text/javascript" strategy="afterInteractive" dangerouslySetInnerHTML={histats()} />
+      <Script id="rank" type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={rank()} key="product-jsonld" />
     </html>
   );
 }
