@@ -64,7 +64,7 @@ export default function Home() {
                         <tr className='border-b border-[#EACD00] '>
                           <td className='px-2 py-3 w-1/4 whitespace-nowrap border-e border-[#EACD00] '>Daftar Slot Maxwin</td>
                           <td className='px-2 py-3 w-3/4 whitespace-nowrap border-e border-[#EACD00] '>
-                            <Link href='https://daftarwap.orang-dalam.link/lanaya' target="_blank">
+                            <Link href={GlobalConst.daftar} target="_blank">
                               Klik disini
                             </Link>
                           </td>
