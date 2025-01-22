@@ -20,7 +20,7 @@ function rank() {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "ratingCount": "7143729"
+    "ratingCount": "10394859"
   },
 "review": {
         "@type": "Review",
