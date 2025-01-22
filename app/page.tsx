@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import GlobalConst from "./var-global";
 import { RiStarFill } from 'react-icons/ri';
+import GlobalConst from "./var-global";
 
 export default function Home() {
   return (
@@ -11,20 +12,20 @@ export default function Home() {
         <div className='mx-auto lg:w-2/3'>
             <div className=" container mx-auto flex flex-wrap md:p-5 flex-col md:flex-row items-center">
               <a className="max-sm:fixed flex title-font font-medium items-center text-gray-900 md:mb-0">
-                <Image alt="lanaya88 slot" src='/logo.png' className='w-48 md:w-52 block' width='230' height='80' />
+                <Image alt="{GlobalConst.brandName} slot" src='/logo.png' className='w-48 md:w-52 block' width='230' height='80' />
               </a>
                 <div className="max-sm:mt-32 max-sm:container md:ml-auto md:mr-auto flex items-center text-base justify-center gap-2">
-                  <Link title="Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025" href={GlobalConst.login} target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
+                  <Link title={GlobalConst.title} href={GlobalConst.login} target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
                       LOGIN
                   </Link>
-                  <Link title="Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025" href={GlobalConst.daftar} target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
+                  <Link title={GlobalConst.title} href={GlobalConst.daftar} target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
                       DAFTAR
                   </Link>
                 </div>
             </div>
 
-          <Image alt="Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025" src='/banner.png' className='max-sm:mt-12 w-full block' width={757} height={411} />
-          <h1 className='my-6 text-center'>Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025</h1>
+          <Image alt={GlobalConst.title} src='/banner.png' className='max-sm:mt-12 w-full block' width={757} height={411} />
+          <h1 className='my-6 text-center'>{GlobalConst.title}</h1>
           <div className='p-6 space-y-6 rounded-md glow-yellow mb-40'>
             <div className='flex flex-col'>
               <div className='overflow-x-auto sm:-mx-6 lg:-mx-8'>
@@ -34,14 +35,14 @@ export default function Home() {
                       <thead className='font-medium border-b border-[#EACD00] bg-gradient-to-r from-[#2E2E2E] via-[#606060] to-[#2E2E2E] '>
                         <tr>
                           <th colSpan={2} scope='col' className='px-6 py-3 text-center border-2 border-e border-[#EACD00] '>
-                            <h2>Informasi Lanaya88 Agen Slot Maxwin Online</h2>
+                            <h2>Informasi Ongtoto Agen Slot Maxwin Online</h2>
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className='border-b border-[#EACD00] grid-cols-4'>
                           <td className='px-2 py-3 w-1/4 whitespace-nowrap border-e border-[#EACD00] '>Nama Situs</td>
-                          <td className='px-2 py-3 w-3/4 whitespace-nowrap border-e border-[#EACD00] '>Lanaya88</td>
+                          <td className='px-2 py-3 w-3/4 whitespace-nowrap border-e border-[#EACD00] '>{GlobalConst.brandName}</td>
                         </tr>
                         <tr className='border-b border-[#EACD00] '>
                           <td className='px-2 py-3 w-1/4 whitespace-nowrap border-e border-[#EACD00] '>Pasaran Togel Terbanyak</td>
@@ -89,19 +90,18 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <h1>Lanaya88 🔥 Situs Judi Resmi Deposit Dana Dan Slot Maxwin Terbesar!</h1>
+            <h2>Ongtoto 🔥 Situs Judi Resmi Deposit Dana Dan Slot Maxwin Terbesar!</h1>
             <p>
-              Di dunia perjudian online yang dinamis, Lanaya88 telah muncul sebagai situs judi resmi yang menarik perhatian para pemain. Dikenal karena kemudahan melakukan deposit menggunakan Dana dan menawarkan slot Maxwin terbesar, Lanaya88 menggabungkan keamanan, kenyamanan, dan keseruan dalam satu platform.
-            </p>
+Ongtoto adalah situs slot gacor yang memberikan pengalaman bermain terbaik bagi para pemain baru. Dengan promo "New Member 100", setiap pemain yang baru mendaftar dapat langsung menikmati bonus 100% pada deposit pertama mereka. Ini merupakan kesempatan emas bagi pemain yang ingin memulai petualangan mereka di dunia slot dengan modal yang lebih besar, meningkatkan peluang kemenangan di awal permainan            </p>
             <p>
-              Lanaya88 terbukti sebagai situs judi resmi yang menawarkan deposit Dana dan slot Maxwin terbesar, memberikan pengalaman bermain yang nyaman, aman, dan menguntungkan. Bergabunglah dengan Lanaya88 dan rasakan sendiri keunggulan dari salah satu situs judi terbesar dan terpercaya!
-            </p>
+Tidak hanya itu, Ongtoto juga menawarkan berbagai jenis permainan slot dengan RTP (Return to Player) yang tinggi, memastikan pengalaman bermain yang seru dan menguntungkan. Dengan koleksi game slot terbaru dan fitur-fitur menarik, Ongtoto menjadi pilihan utama bagi banyak pemain yang ingin meraih jackpot besar. Selain itu, sistem permainan yang adil dan transparan membuat pemain merasa lebih aman dan nyaman saat bermain            </p>
             
+<p>Bergabung dengan Ongtoto bukan hanya soal menikmati bonus menarik, tetapi juga mendapatkan layanan pelanggan yang responsif dan profesional. Tim customer support siap membantu 24 jam untuk menjawab pertanyaan atau mengatasi masalah yang mungkin Anda hadapi. Segera daftarkan diri Anda di Ongtoto, klaim bonus New Member 100%, dan rasakan sensasi kemenangan yang luar biasa</p>
             <p>
               <strong>Keyword Terkait:</strong>
             </p>
             <ul className='text-[#FFD700] ml-4 leading-loose'>
-              <li className='list-disc'>Lanaya88</li>
+              <li className='list-disc'>{GlobalConst.brandName}</li>
               <li className='list-disc'>slot online</li>
               <li className='list-disc'>slot gacor</li>
               <li className='list-disc'>slot dana maxwin</li>
@@ -126,7 +126,7 @@ export default function Home() {
             </ul>
           </div>
           <div className='bg-[#5B5B5B] text-center py-4'>
-            <p className='text-sm text-white font-medium'>Copyright &copy; 2025 - LANAYA88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025 </p>
+            <p className='text-sm text-white font-medium'>Copyright &copy; 2025 - {GlobalConst.title} </p>
           </div>
         </div>
       </div>
