@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React from 'react';
 import GlobalConst from "./var-global";
 import { RiStarFill } from 'react-icons/ri';
-import GlobalConst from "./var-global";
 
 export default function Home() {
   return (
@@ -90,7 +89,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <h2>Ongtoto 🔥 Situs Judi Resmi Deposit Dana Dan Slot Maxwin Terbesar!</h1>
+            <h2>Ongtoto 🔥 Situs Judi Resmi Deposit Dana Dan Slot Maxwin Terbesar!</h2>
             <p>
 Ongtoto adalah situs slot gacor yang memberikan pengalaman bermain terbaik bagi para pemain baru. Dengan promo "New Member 100", setiap pemain yang baru mendaftar dapat langsung menikmati bonus 100% pada deposit pertama mereka. Ini merupakan kesempatan emas bagi pemain yang ingin memulai petualangan mereka di dunia slot dengan modal yang lebih besar, meningkatkan peluang kemenangan di awal permainan            </p>
             <p>
