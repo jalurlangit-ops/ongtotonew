@@ -11,7 +11,7 @@ export default function Home() {
         <div className='mx-auto lg:w-2/3'>
             <div className=" container mx-auto flex flex-wrap md:p-5 flex-col md:flex-row items-center">
               <a className="max-sm:fixed flex title-font font-medium items-center text-gray-900 md:mb-0">
-                <Image alt="{GlobalConst.brandName} slot" src='/logo.png' className='w-48 md:w-52 block' width='230' height='80' />
+                <Image alt={GlobalConst.brandName} src='/logo.png' className='w-48 md:w-52 block' width='230' height='80' />
               </a>
                 <div className="max-sm:mt-32 max-sm:container md:ml-auto md:mr-auto flex items-center text-base justify-center gap-2">
                   <Link title={GlobalConst.title} href={GlobalConst.login} target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
@@ -90,12 +90,9 @@ export default function Home() {
               </div>
             </div>
             <h2>Ongtoto 🔥 Situs Judi Resmi Deposit Dana Dan Slot Maxwin Terbesar!</h2>
-            <p>
-Ongtoto adalah situs slot gacor yang memberikan pengalaman bermain terbaik bagi para pemain baru. Dengan promo "New Member 100", setiap pemain yang baru mendaftar dapat langsung menikmati bonus 100% pada deposit pertama mereka. Ini merupakan kesempatan emas bagi pemain yang ingin memulai petualangan mereka di dunia slot dengan modal yang lebih besar, meningkatkan peluang kemenangan di awal permainan            </p>
-            <p>
-Tidak hanya itu, Ongtoto juga menawarkan berbagai jenis permainan slot dengan RTP (Return to Player) yang tinggi, memastikan pengalaman bermain yang seru dan menguntungkan. Dengan koleksi game slot terbaru dan fitur-fitur menarik, Ongtoto menjadi pilihan utama bagi banyak pemain yang ingin meraih jackpot besar. Selain itu, sistem permainan yang adil dan transparan membuat pemain merasa lebih aman dan nyaman saat bermain            </p>
-            
-<p>Bergabung dengan Ongtoto bukan hanya soal menikmati bonus menarik, tetapi juga mendapatkan layanan pelanggan yang responsif dan profesional. Tim customer support siap membantu 24 jam untuk menjawab pertanyaan atau mengatasi masalah yang mungkin Anda hadapi. Segera daftarkan diri Anda di Ongtoto, klaim bonus New Member 100%, dan rasakan sensasi kemenangan yang luar biasa</p>
+            <p>Ongtoto adalah situs slot gacor yang memberikan pengalaman bermain terbaik bagi para pemain baru. Dengan promo "New Member 100", setiap pemain yang baru mendaftar dapat langsung menikmati bonus 100% pada deposit pertama mereka. Ini merupakan kesempatan emas bagi pemain yang ingin memulai petualangan mereka di dunia slot dengan modal yang lebih besar, meningkatkan peluang kemenangan di awal permainan</p>
+            <p>Tidak hanya itu, Ongtoto juga menawarkan berbagai jenis permainan slot dengan RTP (Return to Player) yang tinggi, memastikan pengalaman bermain yang seru dan menguntungkan. Dengan koleksi game slot terbaru dan fitur-fitur menarik, Ongtoto menjadi pilihan utama bagi banyak pemain yang ingin meraih jackpot besar. Selain itu, sistem permainan yang adil dan transparan membuat pemain merasa lebih aman dan nyaman saat bermain</p>
+            <p>Bergabung dengan Ongtoto bukan hanya soal menikmati bonus menarik, tetapi juga mendapatkan layanan pelanggan yang responsif dan profesional. Tim customer support siap membantu 24 jam untuk menjawab pertanyaan atau mengatasi masalah yang mungkin Anda hadapi. Segera daftarkan diri Anda di Ongtoto, klaim bonus New Member 100%, dan rasakan sensasi kemenangan yang luar biasa</p>
             <p>
               <strong>Keyword Terkait:</strong>
             </p>
